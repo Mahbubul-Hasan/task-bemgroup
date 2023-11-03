@@ -1,7 +1,7 @@
 ````bash
 # Example installation steps
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+git clone https://github.com/Mahbubul-Hasan/task-bemgroup.git
+cd task-bemgroup
 npm install
 #or
 yar
