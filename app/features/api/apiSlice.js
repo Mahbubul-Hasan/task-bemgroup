@@ -8,7 +8,7 @@ export const baseQuery = fetchBaseQuery({
         if (!headers.get("file")) {
             headers.set("Content-Type", "application/json");
         }
-        headers.set("access-control-allow-origin", BACKEND_URL);
+        headers.set("access-control-allow-origin", "https://eservice.vemate.com");
         const token = getState()?.auth?.token;
 
         if (token) {
