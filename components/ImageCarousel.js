@@ -1,5 +1,3 @@
-// components/ImageCarousel.js
-
 import { useEffect, useState } from "react";
 
 const ImageCarousel = ({ images }) => {
